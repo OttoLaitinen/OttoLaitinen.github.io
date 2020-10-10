@@ -21,7 +21,10 @@ export default function UsersList() {
       <User
         username="Otto A. Laitinen"
         avatar="https://live.staticflickr.com/65535/48602711261_8d099ef806_m.jpg"
-        excerpt="Hi! It's me Otto. That great photo of me is by Stefan Rua."
+        excerpt=<p>
+          Hi! It's me Otto. That great photo of me is by
+          <a href="https://stefanrua.github.io/photos.html"> Stefan Rua</a>.
+        </p>
       />
     </Container>
   )
