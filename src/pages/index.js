@@ -15,7 +15,7 @@ export default function UsersList() {
     <Container>
       <h1>Site under construction</h1>
       <p>
-        This is a test to see if I can get gastby site to work on github pages.
+        This is a test to see if I can get Gatsby site to work on GitHub pages.
         Oh and btw that's me there :D
       </p>
       <User
