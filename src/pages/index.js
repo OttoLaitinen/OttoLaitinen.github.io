@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 const User = props => (
   <UserWrapper>
-    <Avatar src={props.avatar} alt="" />
     <Description>
       <Username>{props.username}</Username>
       <Excerpt>{props.excerpt}</Excerpt>
@@ -13,15 +12,11 @@ const User = props => (
 export default function UsersList() {
   return (
     <Container>
-      <h1>Site under construction</h1>
-      <p>
-        This is a test to see if I can get Gatsby site to work on GitHub pages.
-        Oh and btw that's me there :D
-      </p>
+      <h1>Otto A. Laitinen</h1>
+      <Excerpt>Hi! It's me Otto.</Excerpt>
       <User
-        username="Otto A. Laitinen"
-        avatar="https://live.staticflickr.com/65535/48602711261_8d099ef806_m.jpg"
-        excerpt="Hi! It's me Otto. That great photo of me is by Stefan Rua."
+        username="Site under construction"
+        excerpt="Currently this site is only used for testing what I can do with Gatsby and GitHub pages."
       />
     </Container>
   )
@@ -34,6 +29,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Rubik";
 `
 const UserWrapper = styled.div`
   display: flex;
@@ -56,7 +52,9 @@ const Description = styled.div`
 const Username = styled.h2`
   margin: 0 0 12px 0;
   padding: 0;
+  font-family: "Rubik";
 `
 const Excerpt = styled.p`
   margin: 0;
+  font-family: ${props => props.theme.fonts.regular};
 `

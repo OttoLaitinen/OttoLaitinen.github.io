@@ -22,14 +22,10 @@ const theme = {
     backgroundDarker: "#2B1B4B",
   },
   fonts: {
-    regular: "SourceSansPro-Regular",
-    semiBold: "SourceSansPro-SemiBold",
-    bold: "SourceSansPro-Bold",
-    black: "SourceSansPro-Black",
+    regular: "Karla",
+    title: "Rubik",
   },
   fontSizes: {
-    /** 12px */
-    tag: 12,
     /** 14px */
     small: 14,
     /** 16px */
@@ -42,10 +38,6 @@ const theme = {
     loading: 24,
     /** 26px */
     title: 26,
-    /** 28px */
-    dialogTitle: 28,
-    /** 28px */
-    price: 36,
     /** 40px */
     large: 40,
     /** 52px */
