@@ -5,12 +5,24 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Otto A. Laitinen`,
+    description: `I am design oriented software developer currently studying Human Computer Interaction at Aalto University.`,
+    author: `Otto Alvar Laitinen`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
       },
     },
     {
@@ -21,5 +33,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
   ],
 }

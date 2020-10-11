@@ -26,44 +26,26 @@ const theme = {
     title: "Rubik",
   },
   fontSizes: {
-    /** 14px */
-    small: 14,
-    /** 16px */
-    regular: 16,
-    /** 18px */
-    subtitle: 18,
-    /** 20px */
-    input: 20,
-    /** 24px */
-    loading: 24,
-    /** 26px */
-    title: 26,
-    /** 40px */
-    large: 40,
-    /** 52px */
-    xLarge: 52,
+    small: "16px",
+    regular: "18px",
+    subtitle: "24px",
+    input: "20px",
+    loading: "24px",
+    title: "32px",
+    large: "40px",
+    xLarge: "52px",
   },
-  /** 10px */
-  padding: 10,
-  /** 5px */
-  margin: 5,
-  /** 4px */
-  borderRadius: 4,
+  padding: "10px",
+  margin: "5px",
+  borderRadius: "4px",
   spacing: {
-    /** 1px */
-    xxSmall: 1,
-    /** 2px */
-    xSmall: 2,
-    /** 4px */
-    small: 4,
-    /** 8px */
-    regular: 8,
-    /** 16px */
-    large: 16,
-    /** 32px */
-    xLarge: 32,
-    /** 64px */
-    xxLarge: 64,
+    xxSmall: "1px",
+    xSmall: "2px",
+    small: "4px",
+    regular: "8px",
+    large: "16px",
+    xLarge: "32px",
+    xxLarge: "64px",
   },
 }
 
